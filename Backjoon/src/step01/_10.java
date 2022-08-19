@@ -16,40 +16,40 @@ public class _10 {
 		int p=sc.nextInt();
 		
 		if(k==1) {
-			System.out.print("0");
+			System.out.print("0 ");
 		}else {
 			k=1-k;
-			System.out.print(k);
+			System.out.print(k+" ");
 		}
 		if(q==1) {
-			System.out.print("0");
+			System.out.print("0 ");
 		}else {
 			q=1-q;
-			System.out.print(q);
+			System.out.print(q+" ");
 		}
 		if(l==2) {
-			System.out.print(l);
+			System.out.print("0 ");
 		}else {
 			l=2-l;
-			System.out.print(l);
+			System.out.print(l+" ");
 		}
 		if(b==2) {
-			System.out.print(b);
+			System.out.print("0 ");
 		}else {
 			b=2-b;
-			System.out.print(b);
+			System.out.print(b+" ");
 		}
 		if(n==2) {
-			System.out.print(n);
+			System.out.print("0 ");
 		}else {
 			n=2-n;
-			System.out.print(n);
+			System.out.print(n+" ");
 		}
 		if(p==8) {
-			System.out.print(p);
+			System.out.print("0 ");
 		}else {
 			p=8-p;
-			System.out.print(p);
+			System.out.print(p+" ");
 		}
 	}
 
