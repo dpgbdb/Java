@@ -16,6 +16,7 @@ public class _10 {
 		int p=sc.nextInt();
 		
 		if(k==1) {
+
 			System.out.print("0 ");
 		}else {
 			k=1-k;
@@ -50,7 +51,7 @@ public class _10 {
 		}else {
 			p=8-p;
 			System.out.print(p+" ");
+			System.out.print("0");
 		}
 	}
-
 }

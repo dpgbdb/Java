@@ -1,4 +1,5 @@
 package step01;
+
 import java.util.Scanner;
 /*
  * 날짜 : 2022/08/19
