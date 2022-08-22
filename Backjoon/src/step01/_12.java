@@ -1,5 +1,8 @@
 package step01;
+<<<<<<< HEAD
 
+=======
+>>>>>>> cd733423f34ea51d749351fd7fdd5382dfcc6150
 import java.util.Scanner;
 /*
  * 날짜 : 2022/08/19
