@@ -4,6 +4,10 @@ import java.lang.ArrayIndexOutOfBoundsException;
  * 날짜 : 2022/08/22
  * 이름 : 김동민
  * 내용 : Java 배열 실습하기
+ * 
+ * 배열(Array)
+ * 	- 하나 이상의 데이터를 하나의 변수에 저장할 수 있는 자료구조
+ * 	- 현대 프로그래밍에서는 Array 대신 List를 더 많이 사용
  */
 public class ArrayTest {
 	public static void main(String[] args) {
