@@ -3,10 +3,18 @@ package sub2;
 public class Account {
 	
 	//속성
-	String bank;
-	String id;
-	String name;
-	int balance;
+	private String bank;
+	private String id;
+	private String name;
+	private int balance;
+	
+	//생성자
+	public Account(String bank, String id, String name, int balance) {
+	this.bank=bank;
+	this.id=id;
+	this.name=name;
+	this.balance=balance;
+	}
 	//기능
 	public void deposit(int money) {
 		this.balance+=money;

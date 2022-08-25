@@ -14,7 +14,14 @@ public class Car {
 		this.speed = speed;
 		
 	}
-	
+	//Getter,Setter
+	public String getName() {
+	return name;
+	}
+	public void setName(String name) {
+		this.name =name;
+	}
+	public 
 	//기능
 	public void speedUp(int speed) {
 		this.speed+=speed;
