@@ -10,14 +10,22 @@ public class _04 {
 		Scanner sc = new Scanner(System.in);
 		int tot = sc.nextInt();
 		int num = sc.nextInt();
-		int a=0;
-		int arr[]=new int[a];
-		for(int i=0;i<=num;i++) {
+		int arr[]=new int[num];
+		int sum=0;
+		for(int i=0;i<num;i++) {
 			int pr=sc.nextInt();
 			int n=sc.nextInt();
-			arr[a]
+			arr[i]=pr*n;
 		}
-		
+		sc.close();
+		for(int k : arr) {
+			sum+=k;
+		}
+		if(sum==tot) {
+			System.out.println("Yes");
+		}else {
+			System.out.println("No");
+		}
 	}
 
 }
