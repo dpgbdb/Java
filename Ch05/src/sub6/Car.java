@@ -1,19 +1,17 @@
-package sub2;
+package sub6;
 
 public class Car {
 
 	//속성
-	private String name;
-	private String color;
-	private int speed;
-	public static int count;
+	protected String name;
+	protected String color;
+	protected int speed;
 	
 	//생성자
 	public Car(String name, String color, int speed) {
 		this.name =name;
 		this.color =color;
 		this.speed = speed;
-		count++;
 	}
 	//Getter,Setter
 	public String getName() {
@@ -47,7 +45,6 @@ public class Car {
 		System.out.println("차량명 : "+name);
 		System.out.println("차량색 : "+color);
 		System.out.println("차량속도 : "+speed);
-		System.out.println("현재차량수 : "+count);
 		
 		
 	}
