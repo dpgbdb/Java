@@ -10,15 +10,21 @@ public class _09 {
 		Scanner sc=new Scanner(System.in);
 	
 		int a=sc.nextInt();
-		for(int k=0;k<=a;k++) {
-		for(int i=0;i<a;i++) {
-			System.out.print(" ");
+		int count=a;
+		for(int j=1;j<=a;j++) {
+		for(int i=1;i<count;i++) {
+		System.out.print(" ");
+			
 		}
-		for(int j=0;j<k;j++) {
-			System.out.println("*");
-		}	
+			for(int b=0;b<j;b++) {
+			System.out.print("*");
+			}
+			System.out.print("\n");
+			count=count-1;		
+		}
+		
 		}
 	
 	}
 
-}
+
