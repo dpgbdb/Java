@@ -25,8 +25,8 @@ public class Test06 {
 	}
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
+		intro();
 		
-		int val;
 		int a = input(sc,"a");
 		int b = input(sc,"b");
 		

@@ -1,0 +1,36 @@
+package sub3;
+/*
+ * 날짜 : 2022/09/02
+ * 이름 : 김동민
+ * 내용 : 추상클래스, 다형성 연습문제
+ */
+abstract class Shape{
+	public abstract void draw();
+}
+class Triangle extends Shape{
+	@Override
+	public void draw() {
+		System.out.println("darw Triangle!");
+	}
+}
+class Circle extends Shape{
+	@Override
+	public void draw() {
+		System.out.println("daw Circle!");
+	}
+}
+public class Test09 {
+	public static void main(String[] args) {
+		 
+		Test09 here =new Test09();
+		
+		Circle circle =new Circle();
+		Triangle triangle = new Triangle();
+	
+		here.draw(circle);
+		here.draw(triangle);
+	}
+	public void draw(Shape obj) {
+		obj.draw();
+	}
+}
